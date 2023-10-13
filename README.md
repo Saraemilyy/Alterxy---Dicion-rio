@@ -1,8 +1,8 @@
-<img src="/SRC/Alterxy-Logo.png">
+<img src="./SRC/Alterxy-Logo.png">
 
 # Alterxy 🎲📊
 
-### Links 📍
+## Links 📍
 -<a href="https://github.com/Saraemilyy/Alterxy-Dicionario#comandos-"> Comandos 📝 </a>
 
 -<a href="https://github.com/Saraemilyy/Alterxy-Dicionario#abrindo-site-html"> Abrindo Site HTML (Developers) 🔒 </a>
@@ -13,7 +13,7 @@
 
 <hr>
 
-### Comandos 📝
+## Comandos 📝
 ### Input Data - Dados de Entrada 🗂️
  - Primeiro passo para iniciar o fluxo de dados e configurar a fonte de dados (Única base de dados ou múltiplas)
 - Importar várias bases de dados do mesmo tipo. (Ex: 5 planilhas no formato .xlsx)
@@ -96,5 +96,20 @@
     
 - Criação e Salvamento de Bases.
 <hr>
+
+## Abrindo site HTML (Desenvolvedores) 🔒
+
+### Como rodar o projeto?
+```bash
+# Clone este repositório
+$ git clone https://github.com/Saraemilyy/https://github.com/Saraemilyy/Alterxy-Dicionario
+
+# Acesse a pasta do projeto no seu terminal 
+$ cd Alterxy-Dicionario
+
+# Digite ". code" para abrir o seu Visual Studio Code na pasta do projeto.
+
+# Instale a extensão "Live Server" pelo Visual Studio Code para abrir o arquivo HTML no seu navegador
+```
 
 >&copy; Sara Castro 2023 - Developer Full Stack
