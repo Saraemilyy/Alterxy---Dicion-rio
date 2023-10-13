@@ -1,49 +1,46 @@
-# Alterxy
+# Alterxy 
 
-- Input Data - Dados de Entrada
-    - Primeiro passo para iniciar o fluxo de dados e configurar a fonte de dados (Única base de dados ou múltiplas)
-    - Importar várias bases de dados do mesmo tipo. (Ex: 5 planilhas no formato .xlsx)
-    - Caractere Curinga para importar todos os arquivos da pasta ou com um nome que todos contenham. (Ex: *.xlsx ou se todos tiverem um nome em comum como “abril”, abril*.xlsx)
-    - Para combinas dados é preciso que os arquivos estejam no mesmo diretório, possuam a mesma quantidade de colunas, ter os mesmos dados, estar na mesma ordem e possuir os mesmos tipos de dados.
-    - Caso deseje ver de qual arquivo os dados vêm, use a opção "Gerar campo com o nome do arquivo" na configuração da ferramenta Dados de Entrada.
+## Comandos
+### Input Data - Dados de Entrada
+ - Primeiro passo para iniciar o fluxo de dados e configurar a fonte de dados (Única base de dados ou múltiplas)
+- Importar várias bases de dados do mesmo tipo. (Ex: 5 planilhas no formato .xlsx)
+- Caractere Curinga para importar todos os arquivos da pasta ou com um nome que todos contenham. (Ex: *.xlsx ou se todos tiverem um nome em comum como “abril”, abril *.xlsx)
+- Para combinas dados é preciso que os arquivos estejam no mesmo diretório, possuam a mesma quantidade de colunas, ter os mesmos dados, estar na mesma ordem e possuir os mesmos tipos de dados.
+- Caso deseje ver de qual arquivo os dados vêm, use a opção "Gerar campo com o nome do arquivo" na configuração da ferramenta Dados de Entrada.
+
+
+### Text Input - Entrada de Texto
+- Inserir dados de forma manual, criando  uma tabela no próprio alterxy
+### Data Cleansing - Limpeza de Dados
     
-- Text Input - Entrada de Texto
-    - Inserir dados de forma manual, criando  uma tabela no próprio alterxy
-- Data Cleansing
+### Unique - Checar e Remover Duplicidade
     
-    Limpeza de Dados
+### Filter - Filtro
     
-- Unique
+- Aplicar filtros que retornam true e false a depender da condição
     
-    Checar e Remover Duplicidade
+### AutoField
+### Sort
+### Recordid
+### Sample
+### Transpose
+### Tile
+### Summarize
+- Agregação de Dados como somas, médias, subtração etc.
     
-- Filter
+### Formule -  Fórmula
     
-    Aplicar filtros que retornam true e false a depender da condição
+- Cria fórmulas.
     
-- AutoField
-- Sort
-- Recordid
-- Sample
-- Transpose
-- Tile
-- Summarize
+### Join
+### Union
     
-    Agregação de Dados como somas, médias, subtração etc.
+- União de bases de dados
     
-- Fórmula
+### Select
     
-    Cria fórmulas.
+ Reordenação e alteração do tipo de dados
     
-- Join
-- Union
+### Output
     
-    União de bases de dados
-    
-- Select
-    
-    Reordenação e alteração do tipo de dados
-    
-- Output
-    
-    Criação e Salvamento de Bases.
+- Criação e Salvamento de Bases.
