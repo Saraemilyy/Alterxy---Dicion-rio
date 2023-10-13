@@ -107,7 +107,8 @@ $ git clone https://github.com/Saraemilyy/https://github.com/Saraemilyy/Alterxy-
 # Acesse a pasta do projeto no seu terminal 
 $ cd Alterxy-Dicionario
 
-# Digite ". code" para abrir o seu Visual Studio Code na pasta do projeto.
+# Para abrir o seu Visual Studio Code na pasta do projeto digite:
+$ . code 
 
 # Instale a extensão "Live Server" pelo Visual Studio Code para abrir o arquivo HTML no seu navegador
 ```
