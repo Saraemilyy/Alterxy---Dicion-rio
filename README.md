@@ -2,7 +2,7 @@
 
 # Alterxy 🎲📊
 
-### Indíce 📍
+### Links 📍
 -<a href="https://github.com/Saraemilyy/Alterxy-Dicionario#comandos-"> Comandos 📝 </a>
 
 -<a href="https://github.com/Saraemilyy/Alterxy-Dicionario#abrindo-site-html"> Abrindo Site HTML (Developers) 🔒 </a>
