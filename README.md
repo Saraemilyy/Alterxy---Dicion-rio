@@ -34,16 +34,14 @@
 - Objetos Geográficos
 <hr>
 
-### Select - Selecionar ◀
+### Select - Selecionar 🖱️
 - Reodernação de dados
 - Renomeação de linhas
 - Descartar colunas 
 <hr>
 
-### Navegation - Navegar 🖱️
+### Navegation - Navegar 
 - Visualizar os dados de uma ferramenta conectada, assim como informações de perfil de dados, mapas, fragmentos de relatório e informações de análise comportamental  nos dados.
-<hr>
-
 <hr>
 
 ### Data Cleansing - Limpeza de Dados 🧼
@@ -52,49 +50,95 @@
 ### Unique - Checar e Remover Duplicidade ❌
 <hr>
 
-### Filter - Filtro ⁉️
-    
+### Filter - Filtro 🗃️
 - Aplicar filtros que retornam true e false a depender da condição
 <hr>
 
-### AutoField - Campo Automático
+### Sample - Amostra 📋
+- A ferramenta oferece opções para você separar uma parte do seus dados para analisar.
+- Selecione  uma das opções de configuração e em seguida defina um valor para N. A saída da ferramenta Amostra inclui apenas os dados especificados e descarta o restante.
+
 <hr>
 
-### Sort - Ordenar
+### Texto para colunas  
+- Divide o texto de um campo em linhas ou colunas separadas.
+- Se os valores estiverem separados por um delimitador, a ferramenta é uma maneira rápida de realizar essa tarefa.
 <hr>
 
-### Record Id - Id de Registro
+### Exclusivo 
+- Separe dados exclusivos e duplicados com base nas colunas selecionadas.
+- A ferramenta separa os conjuntos de dados em valores únicos e duplicados.
 <hr>
 
-### Sample - Amostra
+### AutoField - Campo Automático ⌨️
 <hr>
 
-### Transpose - Transpor
+### Sort - Ordenar 🗂️
+- Organize seus dados com base nos valores de uma ou mais colunas.
+- Organize grandes conjuntos de dados classificando as informações em ordem crescente ou descrecente.
+
 <hr>
 
-### Tile - Bloco 
+### Record Id - Id de Registro 🆔
 <hr>
 
-### Summarize - Sumarizar
-- Agregação de Dados como somas, médias, subtração etc.
+### Transpose - Transpor 📑
+- Gira a orientação dos dados em uma tabela movendo dados verticais para um eixo horizontal e sumarizando os dados selecionados 
+- Alterar o layout do seus dados é outra função importante do Designer. Transformar colunas em linhas e linhas em novas colunas pode ser muito útil para gerar novas ideias ou para usar uma ferramenta específica. 
+- A ferramenta *Transpor* tranforma linhas em colunas, enquanto a ferramenta *Tabela de referência Cruzada* transforma colunas em linhas. 
 <hr>
 
-### Formule -  Fórmula
-    
-- Cria fórmulas.
+### Localizar e Substituir 🔎
+- Procure por dados em uma coluna de um fluxo de dados e o substitua especificando uma coluna de outro fluxo. Semelhante  a um VlookUp do Excel.
+- Essa ferramenta tem duas âncoras de entrada, uma para o conjunto de dados em que os valores devem ser encontrados (Âncora F, do inglês "Find") e outra para a lista de consulta que contém os valores para a substituição (Âncora R, do inglês "Replace").
+
 <hr>
 
-### Join - Junção 
+### Tile - Bloco  🗒️
 <hr>
 
-### Union - União 
-    
+### Funções 
+- O Designer possui uma biblioteca de funções que é categorizada para ajudá-lo a encontrar o que você precisa, algumas funções só funcionam com um tipo de dado específico, mas outras podem ser aplicadas a qualquer tipo de dados.
+<hr>
+
+### Tipos de Funções 
+- Expressões Condicionais;
+- Valores nulos e vazios
+- Cadeia de Caracteres 
+- Valores Numéricos
+- Valores Data/Hora
+<hr>
+
+### Summarize - Sumarizar 🔢
+- Sumarize dados por meio do agrupamento, soma, contagem, processamento de objetos geográficos, concatenação de cadeias de caracteres e muito mais. A saída contém apenas o resultado do cálculo.
+<hr>
+
+### Formule - Fórmula 🧪
+- Cria ou atualize colunas usando uma ou mais expressões para executar uma ampla variedade de cálculos e/ou operações.
+- Com ela você pode utilizar valores de outras colunas para fazer cálculos, categorizar, converter tipos de dados, formatar valores e muito mais.
+- A única limitação é que os valores da expressão estão limitados à linha atual que está sendo processada, ou seja, não é possível fazer relação com valores em linhas anteriores ou posteriores. 
+- Uma das principais vantagens da ferramenta Fórmula é que você pode escrever várias expressões usando uma única ferramenta.
+<hr>
+
+### Agrupar Campos 
+- Adicione os campos de uma entrada de origem a cada registro de uma entrada alvo.
+- Cada registro da entrada alvo será duplicado para cada registro na entrada de origem.
+<hr>
+
+### Join - Junção ➕
+- Combine dois ou mais fluxos de dados com base em campos comuns ou posição dos registros. 
+- Na saída combinada (J) cada linha conterá os dados das duas entradas. 
+<hr>
+
+### Union - União 🔀
 - União de bases de dados
+- Combine dois ou mais fluxos de dados em função dos nomes ou posições dos campos. Na saída, cada coluna conterá os dados de todas as entradas e os registro serão "empilhados" verticalmente.
 <hr>
 
-### Output - Dados de Saída 
-    
-- Criação e Salvamento de Bases.
+### Output - Dados de Saída 🛑
+- Envie o arquivo de um fluxo de trabalho para um arquivo ou base de dados.
+- A ferramenta pode gravar vários arquivos com uma única ferramenta.
+- Pode gerar os dados no formato de arquivo da sua escolha.
 <hr>
 
 ## Abrindo site HTML (Desenvolvedores) 🔒
@@ -107,8 +151,7 @@ $ git clone https://github.com/Saraemilyy/https://github.com/Saraemilyy/Alterxy-
 # Acesse a pasta do projeto no seu terminal 
 $ cd Alterxy-Dicionario
 
-# Para abrir o seu Visual Studio Code na pasta do projeto digite:
-$ . code 
+# Digite ". code" para abrir o seu Visual Studio Code na pasta do projeto.
 
 # Instale a extensão "Live Server" pelo Visual Studio Code para abrir o arquivo HTML no seu navegador
 ```
