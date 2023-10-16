@@ -3,10 +3,10 @@
 # <a href="https://help.alteryx.com/pt-br/20231/designer/workflows">Alterxy 🎲📊</a>
 
 ## Links 📍
--<a href="https://github.com/Saraemilyy/Alterxy-Dicionario#comandos-"> Comandos 📝 </a>
--<a href="https://www.alteryx.com/pt-br"> Site Alterxy Oficial</a>
--<a href="https://community.alteryx.com/?category.id=external"> Site Comunidade Alterxy </a>
--<a href="https://help.alteryx.com/pt-br/20231/designer/workflows"> Site Documentação Alterxy </a>
+- <a href="https://github.com/Saraemilyy/Alterxy-Dicionario#comandos-"> Comandos 📝 </a>
+- <a href="https://www.alteryx.com/pt-br"> Site Alterxy Oficial</a>
+- <a href="https://community.alteryx.com/?category.id=external"> Site Comunidade Alterxy </a>
+- <a href="https://help.alteryx.com/pt-br/20231/designer/workflows"> Site Documentação Alterxy </a>
 
 <hr>
 
