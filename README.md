@@ -1,15 +1,12 @@
 <img src="./SRC/Alterxy-Logo.png">
 
-# Alterxy 🎲📊
+# <a href="https://help.alteryx.com/pt-br/20231/designer/workflows">Alterxy 🎲📊</a>
 
 ## Links 📍
 -<a href="https://github.com/Saraemilyy/Alterxy-Dicionario#comandos-"> Comandos 📝 </a>
-
--<a href="https://github.com/Saraemilyy/Alterxy-Dicionario#abrindo-site-html-desenvolvedores-"> Abrindo Site HTML (Developers) 🔒 </a>
-
 -<a href="https://www.alteryx.com/pt-br"> Site Alterxy Oficial</a>
-
 -<a href="https://community.alteryx.com/?category.id=external"> Site Comunidade Alterxy </a>
+-<a href="https://help.alteryx.com/pt-br/20231/designer/workflows"> Site Documentação Alterxy </a>
 
 <hr>
 
@@ -45,9 +42,13 @@
 <hr>
 
 ### Data Cleansing - Limpeza de Dados 🧼
+- Remove todas as linhas que apresentam um valor nulo em todas as colunas
+- Remova linhas com valores nulos (a ferramenta não remove linhas com cadeias de caracteres vazias).
+- Remove apenas as linhas que apresentam um valor nulo em todas as colunas do conjunto.
 <hr>
 
-### Unique - Checar e Remover Duplicidade ❌
+### Unique - Exclusivo❌
+- Use a ferramenta Exclusivo para distinguir se um registro é único ou uma duplicata agrupando os dados com base em um ou mais campos especificados e, depois, classificando esses campos.
 <hr>
 
 ### Filter - Filtro 🗃️
@@ -80,6 +81,8 @@
 <hr>
 
 ### Record Id - Id de Registro 🆔
+- Ela pode ser utilizada para ordenação, reorganizar o conjunto de dados, e diversos outros usos.
+- Caso a ferramenta seja configurada com o tipo String, ela irá completar seus dados com um “0” a esquerda e caso o valor ultrapasse o tamanho máximo, o valor será truncado, como no exemplo abaixo.
 <hr>
 
 ### Transpose - Transpor 📑
@@ -140,20 +143,5 @@
 - A ferramenta pode gravar vários arquivos com uma única ferramenta.
 - Pode gerar os dados no formato de arquivo da sua escolha.
 <hr>
-
-## Abrindo site HTML (Desenvolvedores) 🔒
-
-### Como rodar o projeto?
-```bash
-# Clone este repositório
-$ git clone https://github.com/Saraemilyy/https://github.com/Saraemilyy/Alterxy-Dicionario
-
-# Acesse a pasta do projeto no seu terminal 
-$ cd Alterxy-Dicionario
-
-# Digite ". code" para abrir o seu Visual Studio Code na pasta do projeto.
-
-# Instale a extensão "Live Server" pelo Visual Studio Code para abrir o arquivo HTML no seu navegador
-```
 
 >&copy; Sara Castro 2023 - Developer Full Stack
