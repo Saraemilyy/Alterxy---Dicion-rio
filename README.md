@@ -119,7 +119,7 @@
 ### Tile - Bloco  🗒️
 - Use a ferramenta Tile para atribuir um valor (bloco) com base em intervalos nos dados. Cada intervalo de dados em seu DataSet é um bloco. Estas telhas podem ser agrupadas. Você pode selecionar um dos seguintes métodos de agrupamento: soma igual, registros iguais, bloco inteligente, valor exclusivo e bloco manual.
 
--A ferramenta Tile acrescenta duas colunas aos dados. Número de mosaico é o mosaico atribuído do registo ou linha. Número de sequência de mosaico é o número de registo da posição da linha dentro do mosaico. Cada linha é considerada um registro.
+- A ferramenta Tile acrescenta duas colunas aos dados. Número de mosaico é o mosaico atribuído do registo ou linha. Número de sequência de mosaico é o número de registo da posição da linha dentro do mosaico. Cada linha é considerada um registro.
 
 <hr>
 
@@ -187,18 +187,21 @@ saída, cada coluna conterá os dados de todas as entradas e os registro serão
 - No fluxo de trabalho, procure na barra de pesquisa a ferramenta chamada "Python" ou vá até a aba chamada "Desenvolvedor" e arraste ela até seu fluxo de trabalho.
 
 - Ligue sua fonte de dados a ferramenta de Python.
+<hr>
 
 ### Exibindo a fonte de dados na saída do Python
 - Abra a ferramenta Python e espere carregar o Jupyter Notebook, após isso atribua a sua fonte de dados a uma variável para ser exibida dentro da tela do Python.
 `Exemplo: NomedaVariavel = Alteryx.read("#1")`
+<hr>
 
 ### Exibindo os dados do Python no Output 
 - Para exibir o Dataframe no Output do Alteryx, vamos codar o seguinte:
 `NomedeOutraVariavel = Alteryx.write(NomedaVariavel,1)`
+<hr>
 
 ### Criando uma nova tabela 
 - Para criar uma nova coluna na tabela use o seguinte comando:
 `NomedaVariavel ['Total Vendas'] = sum(NomedaVariavel['ColunaparaRelizarOperaçao'])`
-
+<hr>
 
 >&copy; Sara Castro 2023 - Developer Full Stack
