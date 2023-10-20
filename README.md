@@ -2,17 +2,21 @@
 
 # <a href="https://help.alteryx.com/pt-br/20231/designer/workflows">Alterxy 🎲📊</a>
 
-## Links 📍
+## Links 📍 
+<br>
+
 - <a href="https://github.com/Saraemilyy/Alterxy-Dicionario#comandos-"> Comandos 📝 </a>
 - <a href="https://github.com/Saraemilyy/Alterxy-Dicionario#integrando-alteryx-com-python"> Integrando Alteryx com Python</a>
 - <a href="https://www.alteryx.com/pt-br"> Site Alterxy Oficial</a>
-- <a href="https://community.alteryx.com/?category.id=external"> Site Comunidade Alterxy </a>
+- <a href="https://community.alteryx.com/?category.id=external-pt-br"> Site Comunidade Alterxy </a>
 - <a href="https://help.alteryx.com/pt-br/20231/designer/workflows"> Site Documentação Alterxy </a>
-
+<br>
 
 <hr>
 
 ## Comandos 📝
+<br>
+
 ### Input Data - Dados de Entrada 🗂️
  - Primeiro passo para iniciar o fluxo de dados e configurar a fonte de dados (Única base de dados ou múltiplas)
 
@@ -37,6 +41,9 @@
 - Objetos Geográficos
 <hr>
 
+### Comentando dentro das fórmulas
+
+> Inicie colocando // antes do texto a ser comentado .
 ### Select - Selecionar 🖱️
 - Reodernação de dados
 
@@ -184,24 +191,35 @@ saída, cada coluna conterá os dados de todas as entradas e os registro serão
 ## Integrando Alteryx com Python 
 
 ### Primeiros passos para implementar Python no  Fluxo
-- No fluxo de trabalho, procure na barra de pesquisa a ferramenta chamada "Python" ou vá até a aba chamada "Desenvolvedor" e arraste ela até seu fluxo de trabalho.
+> No fluxo de trabalho, procure na barra de pesquisa a ferramenta chamada "Python" ou vá até a aba chamada "Desenvolvedor" e arraste ela até seu fluxo de trabalho.
 
-- Ligue sua fonte de dados a ferramenta de Python.
+> Ligue sua fonte de dados a ferramenta de Python.
 <hr>
 
 ### Exibindo a fonte de dados na saída do Python
-- Abra a ferramenta Python e espere carregar o Jupyter Notebook, após isso atribua a sua fonte de dados a uma variável para ser exibida dentro da tela do Python.
+> Abra a ferramenta Python e espere carregar o Jupyter Notebook, após isso atribua a sua fonte de dados a uma variável para ser exibida dentro da tela do Python.
 `Exemplo: NomedaVariavel = Alteryx.read("#1")`
 <hr>
 
 ### Exibindo os dados do Python no Output 
 - Para exibir o Dataframe no Output do Alteryx, vamos codar o seguinte:
-`NomedeOutraVariavel = Alteryx.write(NomedaVariavel,1)`
+>`NomedeOutraVariavel = Alteryx.write(NomedaVariavel,1)`
 <hr>
 
 ### Criando uma nova tabela 
 - Para criar uma nova coluna na tabela use o seguinte comando:
-`NomedaVariavel ['Total Vendas'] = sum(NomedaVariavel['ColunaparaRelizarOperaçao'])`
+>`NomedaVariavel ['Total Vendas'] = sum(NomedaVariavel['ColunaParaRelizarOperaçao'])`
 <hr>
+
+
+### Importando script já pronto no Alteryx
+
+- É possível importar um script Python ou Jupyter Notebook existente utilizando a função de importação do Alteryx. Caso deseje gerenciar caminhos relativos, utilize o comando import na célula. Exemplos de importação incluem o uso do comando import para importar um diretório e o uso da função de importação do Alteryx para importar um único script.
+
+> Clique no menu Alteryx e  selecione `Importar Script`.
+
+> Clique em Escolher arquivo e navegue até um arquivo .py ou .ipynb. e clique em `Importar`.
+
+## Implementando Power BI com Alteryx
 
 >&copy; Sara Castro 2023 - Developer Full Stack
