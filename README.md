@@ -222,4 +222,7 @@ saída, cada coluna conterá os dados de todas as entradas e os registro serão
 
 ## Implementando Power BI com Alteryx
 
+- Entre no site <a href="https://help.alteryx.com/pt-br/20231/designer/microsoft-power-bi">Alteryx Power Bi</a> e instale a extensão para adicionar a ferramenta de saída para o Alteryx.
+- Dentro do Alteryx vá até a Aba `Desenvolvedor` ou vá até a barra de pesquisa e coloque `Power Bi`.
+
 >&copy; Sara Castro 2023 - Developer Full Stack
